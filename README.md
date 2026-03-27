@@ -77,6 +77,16 @@ The "Other" bucket is where self-deception lives. That 35% of your day spent on 
 - **No accounts. No cloud. No telemetry. No internet required.**
 - Your data never leaves your computer.
 
+## System Requirements
+
+| Platform | Minimum Version | Notes |
+|----------|----------------|-------|
+| macOS | 10.15 (Catalina) or later | Intel and Apple Silicon supported |
+| Windows | Windows 10 or later | No installer needed — runs from extracted folder |
+| Linux | Ubuntu 20.04+ / Fedora 34+ | x86_64 only; requires GTK3 |
+
+Naggler uses ~50 MB disk and minimal RAM/CPU. The SQLite database grows slowly — a year of daily use is typically under 10 MB.
+
 ## Quick Start
 
 See [QUICKSTART.md](QUICKSTART.md) for a complete walkthrough.
@@ -86,6 +96,26 @@ See [QUICKSTART.md](QUICKSTART.md) for a complete walkthrough.
 - **Builders and founders** who lose hours to "just checking something real quick"
 - **ADHD brains** that need gentle accountability without punishment
 - **Anyone** who says "where did today go?" more than once a week
+
+## FAQ
+
+**Can I change the check-in interval?**
+Yes — go to Settings and adjust the timer. Default is 5 minutes. Most people settle between 3-10 minutes.
+
+**Where is my data stored?**
+Locally at `~/.naggler/naggler.db`. You can back it up by copying that file, or use File > Export for CSV/JSON.
+
+**Does it work with multiple monitors?**
+Yes. The edge tab appears on your primary display. You can drag it to another monitor if preferred.
+
+**Can I use it across multiple machines?**
+Not yet — data is local to each machine. Sync is on the roadmap.
+
+**The macOS DMG says the app is from an unidentified developer.**
+Right-click the app and choose "Open" the first time. This bypasses Gatekeeper. The app isn't code-signed yet.
+
+**Windows SmartScreen blocks the app.**
+Click "More info" then "Run anyway." This happens because the app isn't code-signed yet.
 
 ## Feedback
 

@@ -8,10 +8,6 @@ Every few minutes, a small prompt pops up with your top priorities and asks: wha
 
 Over a day, you build an honest map of where your focus went — vs. where you said it should go. That gap is where self-awareness lives.
 
-<p align="center">
-  <img src="screenshots/main-window.png" width="420" alt="Main window with time snapshot and pie chart">
-  <img src="screenshots/prompt.png" width="360" alt="Check-in prompt">
-</p>
 
 ## Download
 

@@ -115,7 +115,7 @@ Click "More info" then "Run anyway." This happens because the app isn't code-sig
 
 ## Feedback
 
-Found a bug or have feedback? [Open an issue](https://github.com/MurchE/naggler/issues) or email naggler@murchewings.com.
+Found a bug or have feedback? [Open an issue](https://github.com/MurchE/naggler/issues)
 
 ## License
 
